@@ -1,27 +1,27 @@
 import React, { Component } from "react";
 import "./About.css";
-import profile_pic from "../assets/profile_pic.jpg";
+import pfp from "../assets/pfp.jpeg";
 
 export default class About extends Component {
   render() {
     return (
       <div>
-        {/* <p>Design your About me page </p> */}
-        <div class="split left">
-          <div className="centered">
-            <img
-              className="profile_image"
-              src={profile_pic}
-              alt="Profile Pic"
-            ></img>
+        <div>
+          <div className="split left">
+            <div className="centered">
+              <img
+                className="profile_image"
+                src = {pfp}
+                alt="Profile Pic"
+              ></img>
+            </div>
           </div>
-        </div>
-        <div className="split right">
-          <div className="centered">
-            <div className="name_title">Your Name</div>
-            <div className="brief_description">
-              Tell us about yourself in a few sentences. Tell us your interests
-              and say a fun fact about yourself.
+          <div className="split right">
+            <div className="centered">
+              <div className="name_title">Ian Chow</div>
+              <div className="brief_description">
+                Hi, My name is Ian Chow and I am a rising junior at Cal Poly Pomona studying computer science. I love to go to the gym and play basketball
+              </div>
             </div>
           </div>
         </div>
